@@ -3,7 +3,7 @@ import { Box, Button, HStack, Stack } from "@chakra-ui/react";
 export function Pagination() {
   return (
     <HStack
-      // direction="row"   -> utilizo este comando no caso de usar o Stack e não o HStack!
+      // direction="row"   -> utilizo este comando no caso de usar o Stack como abaixo ou HStack direto!
       spacing="6"
       mt="8"
       justifyContent="space-between"
