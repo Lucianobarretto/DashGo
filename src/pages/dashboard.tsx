@@ -29,10 +29,10 @@ const options = {
   xaxis: {
     type: 'datetime',
     axisBorder: {
-      color: theme.colors.gray[600],
+      color: theme.colors.gray[600]
     },
     axisTicks: {
-      color: theme.colors.gray[600],
+      color: theme.colors.gray[600]
     },
     categories: [
       '2021-06-11T00:00:00.000Z',
