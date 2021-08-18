@@ -3,8 +3,8 @@ import { PaginationItem } from "./PaginationItem";
 
 export function Pagination() {
   return (
-    <HStack
-      // direction="row"   -> utilizo este comando no caso de usar o Stack como abaixo ou HStack direto!
+    <Stack
+      direction={["column", "row"]}
       spacing="6"
       mt="8"
       justifyContent="space-between"
@@ -21,6 +21,6 @@ export function Pagination() {
         <PaginationItem number={5} />
         <PaginationItem number={6} />
       </Stack>
-    </HStack>
+    </Stack>
   );
 }
