@@ -118,29 +118,6 @@ export default function UsersList() {
                   </Button>
                 </Td>
               </Tr>
-              <Tr>
-                <Td px={["4", "4", "6"]}>
-                  <Checkbox colorScheme="pink" />
-                </Td>
-                <Td>
-                  <Box>
-                    <Text fontWeight="bold">Luciano Barreto</Text>
-                    <Text fontSize="sm" color="gray.300">contato.lucianobarreto@gmail.com</Text>
-                  </Box>
-                </Td>
-                { isWideVersion && <Td>11 de agosto de 2021</Td> }
-                <Td>
-                  <Button
-                    as="a"
-                    size="sm"
-                    fontSize="sm"
-                    colorScheme="purple"
-                    leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
-                  >
-                    Editar
-                  </Button>
-                </Td>
-              </Tr>
             </Tbody>
           </Table>
 
